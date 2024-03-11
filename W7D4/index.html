@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sviluppo di una pagina web - Blog Epicode</title>
     <meta name="descrizione" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,23 +15,69 @@
         
         <div id="logo">
             <img src="assets/img/logo.svg" alt="logo Epicode">
-            <h3>Epicode - Il Blog dei developers</h3>
+            <h4>Epicode - Il Blog dei developers</h4>
         </div>
+        <hr>
         
-        <div id="menu-nav">
-        <table>
-            <tr><th><a href="index.html">Home</a></th><th><a href="articoli.html">Articoli</a></th><th><a href="contatti.html">Contatti</a></th></tr>
-        </table>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="articoli.html">Articoli</a>
+            <a href="contatti.html">Contatti</a>
+        </nav>
+        <br>
+        
+    </Header>
+    <hr>
+ <main>
+    <div id="ultimo">
+        <H3>Ultimo Articolo pubblicato su Epicode....</H3>
+    </div>
+        <hr>
+    <div id="estratto">
+        <H2>Come creare un template per i post</H2>
+        <p>di Mario Rossi - <span>pubblicato il 25-10-2020</span></p>
+        <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <strong>parti comuni</strong> da applicare a tutte le pagine</p>
+        <p>Le varie aree saranno quindi suddivise in:....<a href="articoli.html" title="vai alla pagina dell'articolo" target="_blank"> leggi di piu'</a> </p>
+    </div>
+    
+    <hr>
+
+    <div id="articoli">
+        <h3>Articoli correlati</h3>
+    </div>
+
+    <aside>
+        
+        <div>
+            <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
+            <p>Categoria: develop</p>
+            <p>Data: 18-9-2020</p>
         </div>
 
+        <div>
+            <a href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la sintassi</a>
+            <p>Categoria: develop</p>
+            <p>Data: 16-9-2020</p>
+        </div>
+
+        <div>
+            <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
+            <p>Categoria: ottimizzazione</p>
+            <p>Data: 30-9-2020</p>
+        </div>
+    </aside>
 
 
 
+</main>
 
-
-
-
-    </Header>
-    
 </body>
+<br>
+<hr>
+
+
+<footer>
+    <p>Blog Epicode &copy;2021</p>
+    <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy">info@epicode.school</a></address>
+</footer>
 </html>

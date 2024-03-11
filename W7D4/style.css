@@ -1,0 +1,86 @@
+header {
+background-color: beige;
+margin: 0px;
+}
+nav {
+    background-color: rgb(182, 228, 182);
+text-align: center;
+
+}
+nav a { 
+    margin-right: 100px;
+}
+
+#ultimo{
+   background-color: rgb(235, 167, 181) ;
+    text-align: center;
+}
+
+#articoli{
+    background-color: rgb(235, 167, 181);
+    text-align: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+aside > div {
+    width: 30%; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+table{
+margin: 0 auto;
+
+
+}
+
+#video {
+   margin: 0 auto;
+}
+
+
+form {
+    width: 300px; 
+    margin: 0 auto; 
+}
+
+div {
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 5px; 
+    box-sizing: border-box; 
+}
+
+button {
+    padding: 10px 20px; 
+    background-color: rgb(182, 228, 182); 
+    color: #1b1a1a; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: rgb(235, 167, 181); /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+
+footer {
+    background-color: beige;
+margin: 0px;
+}
